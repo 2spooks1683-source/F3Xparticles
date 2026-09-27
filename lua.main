@@ -239,7 +239,7 @@ local function notmyscript(tbl)
 
                 for _, v in workspace:GetChildren() do
                     if v:IsA("Part") and (v.Position - spawnPosition.Position).Magnitude < 1 then
-                        SetName(v, "Particles by mo0pkidd")
+                        SetName(v, "Particles")
                         Resize(v, Vector3.new(4, 4, 0.1), v.CFrame)
                         MovePart(v, v.CFrame)
                         SetCollision(v, false)
@@ -281,4 +281,4 @@ local function notmyscript(tbl)
     end
 end
 
-notmyscript({{"111277548008448"}})
+notmyscript({{"97579765099209"}})
